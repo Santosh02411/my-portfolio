@@ -324,6 +324,19 @@ section {
   height: 45px;
   object-fit: contain;
 }
+  background-color: #0f0f0f;
+}
 
+#projects h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
 
 
