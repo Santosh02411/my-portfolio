@@ -245,7 +245,28 @@ section {
   flex-wrap: wrap;
   gap: 25px;
 }
+.skill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px 25px;
+  width: 150px;
+  text-align: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(6px);
+}
 
+.skill img {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.skill span {
+  display: block;
+  font-size: 14px;
+  color: #ddd;
+}
 
 
 
