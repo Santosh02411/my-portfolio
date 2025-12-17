@@ -675,3 +675,40 @@ footer {
   }
 }
 
+@media (max-width: 400px) {
+  header {
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  nav a {
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  .hero img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-text h2 {
+    font-size: 22px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  #contact p {
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 20px;
+  }
+}
+
