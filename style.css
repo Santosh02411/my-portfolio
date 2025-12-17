@@ -169,3 +169,26 @@ section {
   gap: 90px;
   flex-wrap: wrap;
 }
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  perspective: 1000px;
+}
+
+.about-image img {
+  width: 450px;
+  height: 350px;
+  object-fit: auto;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5),
+    inset 0 0 20px rgba(255, 255, 255, 0.05);
+  transform: rotateY(-10deg) rotateX(5deg);
+  transition: all 0.6s ease;
+  backdrop-filter: blur(8px);
+  position: relative;
+  overflow: hidden;
+}
