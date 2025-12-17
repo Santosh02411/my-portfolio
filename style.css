@@ -64,3 +64,8 @@ header {
   font-size: 20px; /* increase or decrease as you like */
   font-weight: 800;
 }
+h1 {
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #fff;
+}
