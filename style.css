@@ -219,4 +219,18 @@ section {
 .about-image img:hover::before {
   left: 125%;
 }
+.skills-section {
+  margin-top: 80px;
+  text-align: left;
+  padding-left: 80px;
+}
 
+.skills-section h2 {
+  font-size: 45px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.skills-category {
+  margin-bottom: 50px;
+}
