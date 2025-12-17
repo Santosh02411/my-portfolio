@@ -28,3 +28,24 @@ h2 span span {
   display: block;
   animation: anim 10s infinite ease;
 }
+
+@keyframes anim {
+  0% {
+    transform: translateY(0%);
+  }
+  20% {
+    transform: translateY(-100%);
+  }
+  40% {
+    transform: translateY(-200%);
+  }
+  60% {
+    tansform: translateY(-300%);
+  }
+  80% {
+    transform: translateY(-400%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
