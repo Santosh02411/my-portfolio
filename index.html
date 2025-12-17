@@ -240,6 +240,27 @@ div class="contact-form">
     </div>
 </section>
 
+<footer>© 2025 Santosh Suresh Madannavar. All Rights Reserved.</footer>
+
+    <script>
+      document.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href").substring(1);
+          const targetSection = document.getElementById(targetId);
+
+          if (targetSection) {
+            window.scrollTo({
+              top: targetSection.offsetTop - 80, // offset for fixed header
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
 
 
    
