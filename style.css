@@ -298,4 +298,19 @@ section {
   box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.1);
 }
+@media (max-width: 600px) {
+  .skills-grid {
+    justify-content: center;
+  }
+  .skill {
+    width: 130px;
+    padding: 15px;
+  }
+  .skills-category h3 {
+    font-size: 20px;
+  }
+}
+
+
+
 
