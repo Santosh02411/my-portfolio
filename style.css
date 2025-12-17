@@ -141,4 +141,18 @@ nav a:hover {
   line-height: 1.7;
   color: #aaa;
 }
+section {
+  padding: 80px 80px;
+  padding-left: 80px;
+}
+
+#about {
+  background-color: #111;
+}
+
+#about h2 {
+  font-size: 45px;
+  margin-bottom: 45px;
+  color: #fff;
+}
 
