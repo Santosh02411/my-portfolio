@@ -234,3 +234,18 @@ section {
 .skills-category {
   margin-bottom: 50px;
 }
+.skills-category h3 {
+  font-size: 24px;
+  color: #ff4b4b;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+
+
+
