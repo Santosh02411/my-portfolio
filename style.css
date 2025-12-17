@@ -9,3 +9,22 @@ body {
   background-color: #0f0f0f;
   color: #fff;
 }
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+h2 span {
+  position: relative;
+  display: inline-block;
+  color: RGB(200, 102, 210);
+  overflow: hidden;
+  height: 1.25em;
+}
+
+h2 span span {
+  display: block;
+  animation: anim 10s infinite ease;
+}
