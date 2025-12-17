@@ -267,6 +267,26 @@ section {
   font-size: 14px;
   color: #ddd;
 }
+.skill {
+  position: relative;
+  overflow: hidden;
+}
 
+.skill::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  transform: skewX(-25deg);
+  transition: all 0.7s ease;
+}
 
 
