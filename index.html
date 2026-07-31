@@ -1,0 +1,1069 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santosh Madannavar — Software Engineer &amp; ML/AI Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Santosh Suresh Madannavar — Software Engineer &amp; Machine Learning Developer building end-to-end ML pipelines, RAG/agentic AI systems, and full-stack web applications."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/jpeg" href="./assets/img/avatar.jpg" />
+  </head>
+  <body>
+    <!-- Inline theme-init to avoid flash of wrong theme -->
+    <script>
+      (function () {
+        var saved = localStorage.getItem("santosh-theme");
+        var theme = saved ? saved : "dark";
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+
+    <div class="grain-overlay" aria-hidden="true"></div>
+    <canvas id="siteCanvas" class="site-canvas" aria-hidden="true"></canvas>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header" id="top">
+      <a href="#top" class="brand">
+        <span class="brand-mark">S<span class="dot">.</span>M</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#about"><span class="idx">01</span>About</a>
+        <a href="#experience"><span class="idx">02</span>Experience</a>
+        <a href="#projects"><span class="idx">03</span>Projects</a>
+        <a href="#skills"><span class="idx">04</span>Skills</a>
+        <a href="#contact"><span class="idx">05</span>Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button
+          id="themeToggle"
+          class="theme-toggle"
+          aria-label="Toggle color theme"
+          title="Toggle theme"
+        >
+          <i class="fa-solid fa-moon moon-icon"></i>
+          <i class="fa-solid fa-sun sun-icon"></i>
+        </button>
+        <a
+          class="btn btn-ghost resume-btn"
+          href="./assets/Santosh-Madannavar-Resume.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Resume <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+        <button class="nav-burger" id="navBurger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>Software Engineer · Belagavi,
+            Karnataka, India — open to relocation
+          </p>
+          <h1 class="hero-title">
+            Santosh builds full&#8209;stack products and the ML systems inside
+            them —
+            <span class="accent-text">end to end, not just notebooks.</span>
+          </h1>
+          <p class="hero-sub">
+            Software Engineer with hands-on experience shipping full-stack web
+            applications, REST APIs, and multi-service architectures — plus the
+            ML pipelines and agentic AI systems that plug into them. Data
+            Science Intern at EchoBrains Technologies; top fellow in VTU's
+            Bharat Unnati AI Fellowship.
+          </p>
+
+          <div class="hero-cta-row">
+            <a href="#projects" class="btn btn-primary">
+              View Projects <i class="fa-solid fa-arrow-down-long"></i>
+            </a>
+            <a
+              href="./assets/Santosh-Madannavar-Resume.pdf"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-outline"
+            >
+              Download Résumé <i class="fa-solid fa-file-arrow-down"></i>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <a
+              href="https://github.com/Santosh02411"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-github"></i> Santosh02411</a
+            >
+            <a
+              href="https://www.linkedin.com/in/santosh-madannavar-3ba5a7261/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-linkedin"></i> santosh-madannavar</a
+            >
+            <a href="mailto:santoshmadannavar@gmail.com"
+              ><i class="fa-solid fa-envelope"></i>
+              santoshmadannavar@gmail.com</a
+            >
+          </div>
+        </div>
+
+        <div class="avatar-badge" aria-hidden="true">
+          <img src="./assets/img/avatar.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span>scroll</div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="section-index">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-photo">
+          <img src="./assets/img/about.jpg" alt="Santosh at work" />
+          <div class="photo-frame-tag">Belagavi, KA</div>
+        </div>
+
+        <div class="about-copy">
+          <p class="lede">
+            I'm a final-year Computer Science Engineering graduate from Maratha
+            Mandal's Engineering College, Belagavi — CGPA 8.67/10 — and a
+            software engineer who likes owning a system end to end: backend,
+            API, database, frontend, and whatever ML sits inside it.
+          </p>
+          <p>
+            Most of what I build is full-stack: REST APIs with OAuth and
+            multi-service integrations (a six-platform social ads dashboard),
+            offline-first sync architecture with local persistence and conflict
+            resolution (Delivery Sync), and React/TypeScript frontends backed by
+            Node.js or Flask. I care about the parts of engineering that don't
+            show up in a demo — auth, data modeling, deployment — as much as the
+            feature itself.
+          </p>
+          <p>
+            Alongside that, I build and ship ML systems: end-to-end pipelines
+            from ingestion through deployment during my internship at EchoBrains
+            Technologies, and agentic LLM applications with LangChain and RAG as
+            a top-ranked fellow in VTU's Bharat Unnati AI program. I like ML
+            best when it's wired into something a user actually touches, not
+            left in a notebook. When I'm not coding, I'm usually gaming,
+            watching a K-drama or series, traveling, or sketching out the next
+            project idea.
+          </p>
+
+          <div class="about-facts">
+            <div class="fact">
+              <span class="fact-label">Education</span>
+              <span class="fact-value"
+                >B.E. Computer Science &amp; Engineering<br />Maratha Mandal's
+                Engineering College · 2022–2026 · CGPA 8.67/10</span
+              >
+            </div>
+            <div class="fact">
+              <span class="fact-label">Focus</span>
+              <span class="fact-value"
+                >Applied ML pipelines · Generative &amp; Agentic AI · Full-stack
+                systems</span
+              >
+            </div>
+            <div class="fact">
+              <span class="fact-label">Currently building</span>
+              <span class="fact-value"
+                >Delivery Sync — an offline-first delivery status sync app
+                (React, IndexedDB, FastAPI)</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section alt-bg">
+      <div class="section-head">
+        <span class="section-index">02</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h3>Data Science Intern</h3>
+              <span class="timeline-date">Feb 2026 – May 2026</span>
+            </div>
+            <p class="timeline-org">
+              EchoBrains Technologies Pvt. Ltd. · Bengaluru, Karnataka
+            </p>
+            <ul>
+              <li>
+                Engineered 3 end-to-end ML pipelines covering data ingestion,
+                preprocessing, feature engineering, training, evaluation, and
+                Flask API deployment.
+              </li>
+              <li>
+                Trained and optimized supervised ML models with scikit-learn,
+                achieving a 15% improvement in predictive accuracy through
+                hyperparameter tuning and cross-validation.
+              </li>
+              <li>
+                Built interactive dashboards with Matplotlib and Seaborn to
+                surface actionable insights for stakeholders.
+              </li>
+              <li>
+                Deployed trained models as production-ready REST APIs using
+                Flask for real-time inference.
+              </li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Python</span
+              ><span class="tag">scikit-learn</span
+              ><span class="tag">Flask</span><span class="tag">Matplotlib</span
+              ><span class="tag">Seaborn</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-top">
+              <h3>
+                Artificial Intelligence Fellow
+                <span class="badge-top">Top Fellow</span>
+              </h3>
+              <span class="timeline-date">2025 – 2026</span>
+            </div>
+            <p class="timeline-org">
+              LearnersByte / ExpertPedia — Bharat Unnati TechLeap Program (VTU)
+              · Hyderabad, Telangana
+            </p>
+            <ul>
+              <li>
+                Completed a competitive 4-month AI fellowship — one of a select
+                cohort chosen for applied industry training in Generative AI,
+                Agentic AI, and advanced prompt engineering.
+              </li>
+              <li>
+                Built context-aware applications using LangChain,
+                Retrieval-Augmented Generation (RAG), and LLM APIs, including
+                multi-step agentic workflows.
+              </li>
+              <li>
+                Recognized among the top fellows for technical contributions,
+                delivery quality, and professional conduct across all program
+                milestones.
+              </li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">LangChain</span><span class="tag">RAG</span
+              ><span class="tag">Agentic AI</span
+              ><span class="tag">Prompt Engineering</span
+              ><span class="tag">Gemini API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <span class="section-index">03</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-desc">
+          A mix of ML systems built for explainability and full-stack products
+          built to ship. Every card links to source; live demos where they
+          exist.
+        </p>
+      </div>
+
+      <div class="project-grid featured-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-kicker">In active development</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Delivery_Sync"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Delivery Sync</h3>
+          <p class="project-desc">
+            An offline-first delivery status sync app. Riders in low-network
+            zones lose updates the moment signal drops — this queues status
+            changes locally and syncs them the instant connectivity returns,
+            with conflict resolution for edits made while offline.
+          </p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">IndexedDB</span
+            ><span class="tag">FastAPI</span><span class="tag">SQLite</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-kicker">6 platforms · OAuth 2.0</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/social-media-ads-platform"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Unified Social Media Ads Platform</h3>
+          <p class="project-desc">
+            A multi-platform advertising dashboard supporting ad creation,
+            publishing, and scheduling across six platforms — Facebook,
+            Instagram, LinkedIn, TikTok, Twitter, and Pinterest — from a single
+            interface, with OAuth 2.0 auth and a modular backend built to extend
+            to new platforms easily.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Flask</span><span class="tag">OAuth 2.0</span
+            ><span class="tag">REST APIs</span><span class="tag">SQLite</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-kicker">90%+ accuracy</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/cold_weather_EV_range_degradation"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Cold Weather EV Range Degradation Modeler</h3>
+          <p class="project-desc">
+            End-to-end ML web app predicting EV battery range loss in cold
+            weather. XGBoost regression with feature engineering on climate +
+            telemetry data, SHAP-based explainability showing which factors
+            drive the predicted loss, served through a Flask REST API with a
+            responsive frontend.
+          </p>
+          <div class="tag-row">
+            <span class="tag">XGBoost</span><span class="tag">SHAP</span
+            ><span class="tag">Flask</span><span class="tag">scikit-learn</span>
+          </div>
+        </article>
+
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-kicker">Explainable AI</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Malware-detection"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+              <a
+                href="https://malware-detector-jqu9.onrender.com/"
+                target="_blank"
+                rel="noopener"
+                class="demo-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i> Live
+                Demo</a
+              >
+            </div>
+          </div>
+          <h3>Malware Detection Using Machine Learning</h3>
+          <p class="project-desc">
+            A cybersecurity ML pipeline that detects and classifies malware
+            using XGBoost and Random Forest trained on real-world security
+            datasets, with SHAP-based explainability for actionable threat-cause
+            analysis. Deployed as a Flask app with a file-upload scanning
+            interface.
+          </p>
+          <div class="tag-row">
+            <span class="tag">XGBoost</span
+            ><span class="tag">Random Forest</span><span class="tag">SHAP</span
+            ><span class="tag">Flask</span>
+          </div>
+        </article>
+      </div>
+
+      <h3 class="subsection-title">More projects</h3>
+      <div class="project-grid mini-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">Gemini API</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Formula-Forge"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Formula Forge</h3>
+          <p class="project-desc">
+            An AI-powered web app that solves math, science, and engineering
+            problems with step-by-step reasoning using the Google Gemini API, on
+            a React + TypeScript + Vite frontend with a Node.js backend.
+          </p>
+          <div class="tag-row">
+            <span class="tag">React</span><span class="tag">TypeScript</span
+            ><span class="tag">Node.js</span><span class="tag">Gemini API</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">Computer Vision</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Quick-Aid"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Quick Aid — AI Medical Assistant</h3>
+          <p class="project-desc">
+            An AI assistant that detects injuries from images using OpenCV,
+            checks symptoms, and provides basic first-response health guidance.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">OpenCV</span
+            ><span class="tag">Flask</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">Fraud Detection</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/fraudguard"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>FraudGuard</h3>
+          <p class="project-desc">
+            A fraud detection system that flags suspicious transactions before
+            approval, built on a scikit-learn classification pipeline with a
+            Flask backend.
+          </p>
+          <div class="tag-row">
+            <span class="tag">scikit-learn</span><span class="tag">Flask</span
+            ><span class="tag">SQLite</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">Agri-tech</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/krushi"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Krushi Advisory System</h3>
+          <p class="project-desc">
+            An AI-based advisory platform helping farmers with crop selection,
+            water management, pest control, and market trends using soil and
+            climate data.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Flask</span
+            ><span class="tag">Pandas</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">Computer Vision</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Attendence_Using_Face_Recognition"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Attendance Using Face Recognition</h3>
+          <p class="project-desc">
+            An automated attendance system that recognizes faces in real time
+            from a camera feed and logs attendance without manual entry.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">OpenCV</span
+            ><span class="tag">Face Recognition</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-kicker">NLP</span>
+            <div class="project-links">
+              <a
+                href="https://github.com/Santosh02411/Spam-Detection"
+                target="_blank"
+                rel="noopener"
+                ><i class="fa-brands fa-github"></i> Code</a
+              >
+            </div>
+          </div>
+          <h3>Spam Detection Website</h3>
+          <p class="project-desc">
+            A web-based platform that classifies messages as spam or legitimate
+            using NLP preprocessing and a trained ML classifier.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">NLP</span
+            ><span class="tag">Flask</span>
+          </div>
+        </article>
+      </div>
+
+      <p class="more-repos">
+        Want more? Every project — plus experiments and mini builds — lives on
+        <a href="https://github.com/Santosh02411" target="_blank" rel="noopener"
+          >github.com/Santosh02411
+          <i class="fa-solid fa-arrow-up-right-from-square"></i
+        ></a>
+      </p>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section alt-bg">
+      <div class="section-head">
+        <span class="section-index">04</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-columns">
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-code"></i> Languages</h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Python</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>JavaScript</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>TypeScript</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>C</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>C++</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>SQL</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>HTML</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>
+            <i class="fa-solid fa-layer-group"></i> Frameworks &amp; Backend
+          </h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>React</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Node.js</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Flask</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+                alt=""
+                loading="lazy"
+              /><span>Django</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/fastapi.svg"
+                alt=""
+                loading="lazy"
+              /><span>FastAPI</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/streamlit.svg"
+                alt=""
+                loading="lazy"
+              /><span>Streamlit</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>MySQL</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>SQLite</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-key"></i></span
+              ><span>OAuth 2.0</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-diagram-project"></i></span
+              ><span>REST API Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-brain"></i> AI &amp; Machine Learning</h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>scikit-learn</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/XGBoost_logo.svg"
+                alt=""
+                loading="lazy"
+              /><span>XGBoost</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>TensorFlow</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>OpenCV</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-magnifying-glass-chart"></i></span
+              ><span>Explainable AI (SHAP)</span>
+            </div>
+            <div class="skill">
+              <img
+                class="on-light"
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/langchain.svg"
+                alt=""
+                loading="lazy"
+              /><span>LangChain</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-database"></i></span
+              ><span>Retrieval-Augmented Gen</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-robot"></i></span
+              ><span>Agentic AI</span>
+            </div>
+            <div class="skill">
+              <span class="skill-text-icon"
+                ><i class="fa-solid fa-comment-dots"></i></span
+              ><span>Prompt Engineering</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/google-gemini.svg"
+                alt=""
+                loading="lazy"
+              /><span>Gemini API</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-chart-simple"></i> Data &amp; Analytics</h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>NumPy</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Pandas</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/matplotlib.svg"
+                alt=""
+                loading="lazy"
+              /><span>Matplotlib</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/seaborn-icon.svg"
+                alt=""
+                loading="lazy"
+              /><span>Seaborn</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/microsoft-power-bi.svg"
+                alt=""
+                loading="lazy"
+              /><span>Power BI</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Jupyter</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><i class="fa-solid fa-cloud"></i> Cloud &amp; Tools</h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Git</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>GitHub</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>GCP · Vertex AI</span>
+            </div>
+            <div class="skill">
+              <img
+                class="on-light"
+                src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/ibm.svg"
+                alt=""
+                loading="lazy"
+              /><span>IBM Cloud</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>VS Code</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Postman</span>
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg"
+                alt=""
+                loading="lazy"
+              /><span>Colab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICATIONS ===================== -->
+    <section id="certifications" class="section">
+      <div class="section-head">
+        <span class="section-index">•</span>
+        <h2 class="section-title">Certifications &amp; Training</h2>
+      </div>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>The Ultimate Job Ready Data Science Course</h4>
+            <p>CodeWithHarry · Feb 2026</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Retrieval Augmented Generation with LangChain</h4>
+            <p>Adobe Learning Manager · Sep 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Getting Started with Artificial Intelligence</h4>
+            <p>IBM SkillsBuild · Sep 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Journey to Cloud: Envisioning Your Solution</h4>
+            <p>IBM SkillsBuild · Sep 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Machine Learning SkillUp</h4>
+            <p>Simplilearn · Apr 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>GE Aerospace Explore Engineering Job Simulation</h4>
+            <p>Forage · Apr 2025</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section alt-bg">
+      <div class="section-head">
+        <span class="section-index">05</span>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-desc">
+          Open to SDE, ML Engineer, and full-stack roles, plus internships and
+          collaborations. Drop a message — I reply fast.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:santoshmadannavar@gmail.com"
+                >santoshmadannavar@gmail.com</a
+              >
+            </li>
+            <li>
+              <span class="contact-label">Location</span>
+              <span>Belagavi, Karnataka, India</span>
+            </li>
+            <li>
+              <span class="contact-label">Roles</span>
+              <span>SDE · ML Engineer · Full-Stack Developer</span>
+            </li>
+          </ul>
+
+          <div class="contact-socials">
+            <a href="mailto:santoshmadannavar@gmail.com" class="social-btn"
+              ><i class="fa-solid fa-envelope"></i> Email</a
+            >
+            <a
+              href="https://github.com/Santosh02411"
+              target="_blank"
+              rel="noopener"
+              class="social-btn"
+              ><i class="fa-brands fa-github"></i> GitHub</a
+            >
+            <a
+              href="https://www.linkedin.com/in/santosh-madannavar-3ba5a7261/"
+              target="_blank"
+              rel="noopener"
+              class="social-btn"
+              ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+            >
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          id="contactForm"
+          action="https://formsubmit.co/santoshmadannavar@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="New message from portfolio site"
+          />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input
+              id="name"
+              name="Name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="Email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <label for="subject">Subject</label>
+            <input
+              id="subject"
+              name="Subject"
+              type="text"
+              placeholder="Role, project, or hello"
+            />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="Message"
+              rows="4"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Santosh Suresh Madannavar. Built from scratch,
+        shipped like everything else I make.
+      </p>
+      <a href="#top" class="to-top"
+        >Back to top <i class="fa-solid fa-arrow-up"></i
+      ></a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
