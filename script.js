@@ -139,7 +139,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
       y: Math.random() * H,
       vx: (Math.random() - 0.5) * 0.3,
       vy: (Math.random() - 0.5) * 0.3,
-      r: 1.1 + Math.random() * 1.5,
+      r: 1.2 + Math.random() * 1.5,
     }));
     anchors = [
       { baseX: W * 0.78, baseY: H * 0.18, r: 5, color: "accent", t: 0 },
