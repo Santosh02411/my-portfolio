@@ -321,8 +321,6 @@ html[data-theme="dark"] .sun-icon { opacity: 0; transform: rotate(-60deg) scale(
 .ring-3 .orbit-icon-inner { animation-duration: 38s; }
 
 .orbit-icon-inner img { width: 24px; height: 24px; object-fit: contain; }
-.orbit-icon-inner.on-light { background: #ffffff; }
-.orbit-icon-inner.on-light img { width: 22px; height: 22px; }
 
 @keyframes orbit-spin { to { transform: rotate(360deg); } }
 @keyframes orbit-counter-spin { to { transform: rotate(-360deg); } }
@@ -610,12 +608,7 @@ html[data-theme="dark"] .sun-icon { opacity: 0; transform: rotate(-60deg) scale(
 .section.alt-bg .skill { background: color-mix(in srgb, var(--bg-elev) 40%, transparent); }
 .skill:hover { transform: translateY(-5px) scale(1.03); border-color: var(--accent); box-shadow: 0 14px 30px -14px var(--shadow-color); }
 .skill img { width: 46px; height: 46px; object-fit: contain; }
-.skill img.on-light {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 7px;
-  box-sizing: border-box;
-}
+html[data-theme="dark"] .logo-invert { filter: invert(1); }
 .skill span { font-size: 14px; white-space: nowrap; color: var(--text-dim); }
 .skill-text-icon {
   font-family: var(--font-mono); font-size: 16px; font-weight: 600;
